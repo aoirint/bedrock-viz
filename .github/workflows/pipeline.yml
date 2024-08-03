@@ -57,8 +57,8 @@ jobs:
       with: 
         file: coverage.info
 
-  macOS_10_15:
-    runs-on: macos-10.15
+  macOS:
+    runs-on: macos-12
 
     steps:
     - uses: actions/checkout@v2
